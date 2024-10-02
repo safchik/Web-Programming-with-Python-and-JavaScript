@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <ul class="navbar-google">
+            <li class="navbar-item-google"><a href="index.html">Google Search</a></li>
+        </ul>
+    </div>
+
+    <section id="search" class="search-container">
+        <img src="googleimages.png" alt="Google Icon" height="92">
+        <form action="https://google.com/search" method="GET">
+            <input type="text" name="q" class="search-bar" placeholder="Search Images">
+            <input type="hidden" name="tbm" value="isch">
+            <br>
+            <input type="submit" value="Image Search" class="search-button">
+        </form>
+    </section>
+</body>
+
+</html>

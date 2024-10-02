@@ -1,0 +1,142 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Navbar styling */
+.navbar-google {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-item-google {
+    margin: 10px;
+    font-size: small;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline black;
+}
+
+/* Search Container styling */
+.search-container {
+    margin-top: 85px;
+}
+
+/* Search Bar Styling */
+.search-bar {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 584px;
+    max-width: 584px;
+}
+
+/* Buttons styling */
+.search-button,
+.lucky-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-button:hover,
+.lucky-button:hover {
+    background-color: #e0eaf3;
+    border-color: #5f6368;
+}
+
+/* ------------------------ Advanced Search Styling ------------------------ */
+
+/* Form Row for Advanced Search */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Labels in the Advanced Search form */
+label {
+    font-size: 16px;
+    width: 40%;
+    text-align: left;
+}
+
+/* Input fields for Advanced Search */
+.search-input {
+    width: 55%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Advanced Search page logo and title */
+.header {
+    color: #db4437;
+    font-size: 20px;
+    margin: 25px 35px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.findwith {
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design for Advanced Search */
+@media (max-width: 768px) {
+    .search-container {
+        width: 90%;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-input {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
