@@ -11,19 +11,18 @@
 <body>
     <!-- Header with Title and Navbar -->
     <div class="header">
+        <a href="index.html">
+            <img src="googlelogo.png" alt="Google Icon" height="24">
+        </a>
         <h3 class="advanced-search-title">Advanced Search</h3>
-        <ul class="navbar-google">
-            <li class="navbar-item-google"><a href="index.html">Google Search</a></li>
-        </ul>
         <div class="line"></div>
     </div>
 
     <!-- Search Form -->
-    <div>
+    <div class="advanced-search-container">
         <p class="findwith">Find pages with...</p>
-    </div>
-    <div class="search-container" style="margin-left:10px">
-        <form action="https://www.google.com/search" method="GET">
+
+        <form action="https://www.google.com/search" method="get">
             <div class="form-row">
                 <label for="all">all these words:</label>
                 <input type="text" name="as_q" id="all" class="search-input">
@@ -44,9 +43,12 @@
                 <input type="text" name="as_eq" id="none" class="search-input">
             </div>
 
-            <!-- Submit Button -->
-            <input type="submit" value="Advanced Search" class="search-button">
+            <div class="submit-container">
+                <input type="submit" value="Advanced Search" class="advanced-search">
+            </div>
+
         </form>
+
     </div>
 </body>
 

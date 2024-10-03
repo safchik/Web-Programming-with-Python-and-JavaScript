@@ -72,31 +72,7 @@ a:hover {
     border-color: #5f6368;
 }
 
-/* ------------------------ Advanced Search Styling ------------------------ */
 
-/* Form Row for Advanced Search */
-.form-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-/* Labels in the Advanced Search form */
-label {
-    font-size: 16px;
-    width: 40%;
-    text-align: left;
-}
-
-/* Input fields for Advanced Search */
-.search-input {
-    width: 55%;
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
 
 /* Advanced Search page logo and title */
 .header {
@@ -124,19 +100,50 @@ label {
     margin-bottom: 20px;
 }
 
-/* Responsive Design for Advanced Search */
-@media (max-width: 768px) {
-    .search-container {
-        width: 90%;
-    }
+/* Form Row for Advanced Search */
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-    .form-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+/* Labels in the Advanced Search form */
+label {
+    font-size: 16px;
+    width: 180px;
+    text-align: left;
+    margin-top: 10px;
+}
 
-    .search-input {
-        width: 100%;
-        margin-top: 10px;
-    }
+/* Input fields for Advanced Search */
+.search-input {
+    width: 560px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.advanced-search {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.advanced-search:hover {
+    background-color: #357ae8;
+}
+
+.submit-container {
+    text-align: left;
+    margin-left: 590px;
+}
+
+.advanced-search-container {
+    margin: 50px 40px;
 }
