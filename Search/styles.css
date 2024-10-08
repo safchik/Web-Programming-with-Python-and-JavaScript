@@ -33,6 +33,7 @@ a:hover {
 }
 
 /* Search Bar Styling */
+/* Search Bar Styling */
 .search-bar {
     display: flex;
     z-index: 3;
@@ -45,13 +46,22 @@ a:hover {
     margin: 0 auto;
     width: 584px;
     max-width: 584px;
+
+    /* Adjust text size and placement */
+    font-size: 16px;
+    /* Reduced font size for better alignment */
+    padding: 0 20px;
+    /* Adjusted padding to make it fit better */
+    height: 44px;
+    /* Set a fixed height to maintain consistency */
 }
+
 
 /* Buttons styling */
 .search-button,
 .lucky-button {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    background-color: #e2e4e5;
+    border: 1px solid #d2d3d4;
     border-radius: 4px;
     color: black;
     font-family: Arial, sans-serif;
@@ -68,7 +78,7 @@ a:hover {
 
 .search-button:hover,
 .lucky-button:hover {
-    background-color: #e0eaf3;
+    background-color: #c6c7c8;
     border-color: #5f6368;
 }
 
